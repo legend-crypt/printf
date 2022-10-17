@@ -13,7 +13,7 @@ int _printf(const char *format, ...)
 {
 	va_list ap;
 	char *temp;
-	int i = 0, num, rem, bin = 0, mon = 1;
+	int i = 0;
 
 	va_start(ap, format);
 	while (format[i] != '\0')
